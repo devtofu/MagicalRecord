@@ -11,10 +11,12 @@
 		9DA1D6721C17DC9A00EEEC98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6711C17DC9A00EEEC98 /* AppDelegate.m */; };
 		9DA1D6751C17DC9A00EEEC98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6741C17DC9A00EEEC98 /* ViewController.m */; };
 		9DA1D6781C17DC9A00EEEC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1D6761C17DC9A00EEEC98 /* Main.storyboard */; };
-		9DA1D67B1C17DC9A00EEEC98 /* MagicalRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6791C17DC9A00EEEC98 /* MagicalRecord.xcdatamodeld */; };
 		9DA1D67D1C17DC9A00EEEC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1D67C1C17DC9A00EEEC98 /* Assets.xcassets */; };
 		9DA1D6801C17DC9A00EEEC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1D67E1C17DC9A00EEEC98 /* LaunchScreen.storyboard */; };
 		9DA1D68B1C17DC9A00EEEC98 /* MagicalRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D68A1C17DC9A00EEEC98 /* MagicalRecordTests.m */; };
+		9DA1D6971C17FB7800EEEC98 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6951C17FB7800EEEC98 /* TestModel.xcdatamodeld */; };
+		9DA1D69C1C17FC8700EEEC98 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6991C17FC8700EEEC98 /* Person+CoreDataProperties.m */; };
+		9DA1D69D1C17FC8700EEEC98 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D69B1C17FC8700EEEC98 /* Person.m */; };
 		C7492653E989AC7F743FA500 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D9FDF6805A1D2889F2012F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +40,17 @@
 		9DA1D6731C17DC9A00EEEC98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DA1D6741C17DC9A00EEEC98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9DA1D6771C17DC9A00EEEC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DA1D67A1C17DC9A00EEEC98 /* MagicalRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicalRecord.xcdatamodel; sourceTree = "<group>"; };
 		9DA1D67C1C17DC9A00EEEC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA1D67F1C17DC9A00EEEC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA1D6811C17DC9A00EEEC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA1D6861C17DC9A00EEEC98 /* MagicalRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA1D68A1C17DC9A00EEEC98 /* MagicalRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordTests.m; sourceTree = "<group>"; };
 		9DA1D68C1C17DC9A00EEEC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA1D6961C17FB7800EEEC98 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		9DA1D6981C17FC8700EEEC98 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataProperties.h"; path = "../Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9DA1D6991C17FC8700EEEC98 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataProperties.m"; path = "../Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9DA1D69A1C17FC8700EEEC98 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		9DA1D69B1C17FC8700EEEC98 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 		FE276F54CDCADC6F03747FB1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +105,11 @@
 		9DA1D66C1C17DC9A00EEEC98 /* MagicalRecord */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1D6981C17FC8700EEEC98 /* Person+CoreDataProperties.h */,
+				9DA1D6991C17FC8700EEEC98 /* Person+CoreDataProperties.m */,
+				9DA1D69A1C17FC8700EEEC98 /* Person.h */,
+				9DA1D69B1C17FC8700EEEC98 /* Person.m */,
+				9DA1D6951C17FB7800EEEC98 /* TestModel.xcdatamodeld */,
 				9DA1D6701C17DC9A00EEEC98 /* AppDelegate.h */,
 				9DA1D6711C17DC9A00EEEC98 /* AppDelegate.m */,
 				9DA1D6731C17DC9A00EEEC98 /* ViewController.h */,
@@ -107,7 +118,6 @@
 				9DA1D67C1C17DC9A00EEEC98 /* Assets.xcassets */,
 				9DA1D67E1C17DC9A00EEEC98 /* LaunchScreen.storyboard */,
 				9DA1D6811C17DC9A00EEEC98 /* Info.plist */,
-				9DA1D6791C17DC9A00EEEC98 /* MagicalRecord.xcdatamodeld */,
 				9DA1D66D1C17DC9A00EEEC98 /* Supporting Files */,
 			);
 			path = MagicalRecord;
@@ -289,10 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA1D69D1C17FC8700EEEC98 /* Person.m in Sources */,
 				9DA1D6751C17DC9A00EEEC98 /* ViewController.m in Sources */,
 				9DA1D6721C17DC9A00EEEC98 /* AppDelegate.m in Sources */,
 				9DA1D66F1C17DC9A00EEEC98 /* main.m in Sources */,
-				9DA1D67B1C17DC9A00EEEC98 /* MagicalRecord.xcdatamodeld in Sources */,
+				9DA1D69C1C17FC8700EEEC98 /* Person+CoreDataProperties.m in Sources */,
+				9DA1D6971C17FB7800EEEC98 /* TestModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicalRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iOS122.MagicalRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicalRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iOS122.MagicalRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,13 +511,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9DA1D6791C17DC9A00EEEC98 /* MagicalRecord.xcdatamodeld */ = {
+		9DA1D6951C17FB7800EEEC98 /* TestModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9DA1D67A1C17DC9A00EEEC98 /* MagicalRecord.xcdatamodel */,
+				9DA1D6961C17FB7800EEEC98 /* TestModel.xcdatamodel */,
 			);
-			currentVersion = 9DA1D67A1C17DC9A00EEEC98 /* MagicalRecord.xcdatamodel */;
-			path = MagicalRecord.xcdatamodeld;
+			currentVersion = 9DA1D6961C17FB7800EEEC98 /* TestModel.xcdatamodel */;
+			name = TestModel.xcdatamodeld;
+			path = ../TestModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
