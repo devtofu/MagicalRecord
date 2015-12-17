@@ -14,7 +14,7 @@
 		9DA1D67D1C17DC9A00EEEC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1D67C1C17DC9A00EEEC98 /* Assets.xcassets */; };
 		9DA1D6801C17DC9A00EEEC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1D67E1C17DC9A00EEEC98 /* LaunchScreen.storyboard */; };
 		9DA1D68B1C17DC9A00EEEC98 /* MagicalRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D68A1C17DC9A00EEEC98 /* MagicalRecordTests.m */; };
-		9DA1D6971C17FB7800EEEC98 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6951C17FB7800EEEC98 /* TestModel.xcdatamodeld */; };
+		9DA1D6971C17FB7800EEEC98 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6951C17FB7800EEEC98 /* Demo.xcdatamodeld */; };
 		9DA1D69C1C17FC8700EEEC98 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6991C17FC8700EEEC98 /* Person+CoreDataProperties.m */; };
 		9DA1D69D1C17FC8700EEEC98 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D69B1C17FC8700EEEC98 /* Person.m */; };
 		C7492653E989AC7F743FA500 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D9FDF6805A1D2889F2012F /* libPods.a */; };
@@ -46,7 +46,7 @@
 		9DA1D6861C17DC9A00EEEC98 /* MagicalRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA1D68A1C17DC9A00EEEC98 /* MagicalRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordTests.m; sourceTree = "<group>"; };
 		9DA1D68C1C17DC9A00EEEC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DA1D6961C17FB7800EEEC98 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		9DA1D6961C17FB7800EEEC98 /* Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo.xcdatamodel; sourceTree = "<group>"; };
 		9DA1D6981C17FC8700EEEC98 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataProperties.h"; path = "../Person+CoreDataProperties.h"; sourceTree = "<group>"; };
 		9DA1D6991C17FC8700EEEC98 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataProperties.m"; path = "../Person+CoreDataProperties.m"; sourceTree = "<group>"; };
 		9DA1D69A1C17FC8700EEEC98 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				9DA1D6991C17FC8700EEEC98 /* Person+CoreDataProperties.m */,
 				9DA1D69A1C17FC8700EEEC98 /* Person.h */,
 				9DA1D69B1C17FC8700EEEC98 /* Person.m */,
-				9DA1D6951C17FB7800EEEC98 /* TestModel.xcdatamodeld */,
+				9DA1D6951C17FB7800EEEC98 /* Demo.xcdatamodeld */,
 				9DA1D6701C17DC9A00EEEC98 /* AppDelegate.h */,
 				9DA1D6711C17DC9A00EEEC98 /* AppDelegate.m */,
 				9DA1D6731C17DC9A00EEEC98 /* ViewController.h */,
@@ -304,7 +304,7 @@
 				9DA1D6721C17DC9A00EEEC98 /* AppDelegate.m in Sources */,
 				9DA1D66F1C17DC9A00EEEC98 /* main.m in Sources */,
 				9DA1D69C1C17FC8700EEEC98 /* Person+CoreDataProperties.m in Sources */,
-				9DA1D6971C17FB7800EEEC98 /* TestModel.xcdatamodeld in Sources */,
+				9DA1D6971C17FB7800EEEC98 /* Demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,14 +511,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9DA1D6951C17FB7800EEEC98 /* TestModel.xcdatamodeld */ = {
+		9DA1D6951C17FB7800EEEC98 /* Demo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9DA1D6961C17FB7800EEEC98 /* TestModel.xcdatamodel */,
+				9DA1D6961C17FB7800EEEC98 /* Demo.xcdatamodel */,
 			);
-			currentVersion = 9DA1D6961C17FB7800EEEC98 /* TestModel.xcdatamodel */;
-			name = TestModel.xcdatamodeld;
-			path = ../TestModel.xcdatamodeld;
+			currentVersion = 9DA1D6961C17FB7800EEEC98 /* Demo.xcdatamodel */;
+			name = Demo.xcdatamodeld;
+			path = ../Demo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
